@@ -11,9 +11,16 @@ public class Main {
 
         System.out.println("Okay, you will be running as a " + party + ".");
 
+        Candidate candidate;
         if (party == "Democrat" || party == "democrat"){
             candidate = new Democrat();
         }
+        else if (party == "Republican" || party == "republican"){
+            candidate = new Republican();
+        }
+        else {
+            candidate = new Independent();
+    }
 
 
 
