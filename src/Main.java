@@ -12,10 +12,10 @@ public class Main {
         System.out.println("Okay, you will be running as a " + party + ".");
 
         Candidate candidate;
-        if (party == "Democrat" || party == "democrat"){
+        if (party.equalsIgnoreCase("Democrat")){
             candidate = new Democrat();
         }
-        else if (party == "Republican" || party == "republican"){
+        else if (party.equalsIgnoreCase("Republican")){
             candidate = new Republican();
         }
         else {
