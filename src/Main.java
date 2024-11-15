@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int votes;
+        int votes; // The number of votes that the player has. The player can only win if they earn 100 votes by the end.
 
         Scanner s = new Scanner(System.in);
         System.out.println("Welcome to Presidential Campaign Simulator.");
