@@ -8,7 +8,6 @@ public class Main {
         System.out.println("Welcome to Presidential Campaign Simulator.");
         System.out.println("First, select a party from the following options: Democrat, Republican, or Independent.");
         String party = s.nextLine();
-
         System.out.println("Okay, you will be running as a " + party + ".");
 
         Candidate candidate;
