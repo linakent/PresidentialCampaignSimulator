@@ -4,7 +4,7 @@ import java.util.Scanner;
  */
 abstract class Candidate {
 
-    int randomizeVotes(int baseVotes) {
+    protected int randomizeVotes(int baseVotes) {
         int adjustment = (int)(Math.random() * 11) - 5;
         return baseVotes + adjustment;
     }
