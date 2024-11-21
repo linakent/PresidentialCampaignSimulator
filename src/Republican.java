@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Republican extends Candidate {
 int votes = 0;
     public int campaign (Scanner s){
-        System.out.println("Choose a campaign strategy:");
+        System.out.println("Choose a campaign strategy by entering the corresponding number:");
         System.out.println("Option 1: Lower taxes");
         System.out.println("Option 2: Strong military");
         System.out.println("Option 3: Economic growth");

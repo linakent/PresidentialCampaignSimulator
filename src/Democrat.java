@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Democrat extends Candidate {
 
     public int campaign (Scanner s){
-        System.out.println("Choose a campaign strategy:");
+        System.out.println("Choose a campaign strategy by entering the corresponding number:");
         System.out.println("Option 1: Focus on climate change");
         System.out.println("Option 2: Social justice reform");
         System.out.println("Option 3: Improvements in education");
