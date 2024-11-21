@@ -40,3 +40,25 @@ public class Main {
 
     }
 }
+public static int corruptionOption (Scanner s, int currentVotes) {
+    System.out.println("Do you want to attempt to use corruption?");
+    String choice = s.next();
+
+    if choice.equalsIgnoreCase("yes")) {
+        System.out.println("You chose to engage in corruption.");
+        double chance = Math.random();
+        if (chance < 0.3) {
+            System.out.println("You succeeded in bribery. You gained 50 votes.")
+            return 50;
+        }
+        else {
+            System.out.println("You got caught. You lost all of your votes and are now disqualified."
+            return -currentVotes;
+
+     }
+    else {
+        System.out.println("You chose to avoid corruption.");
+        return 0;
+    }
+    }
+}
